@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Marck+Script&display=swap');
+@font-face {
+    font-family: "Caveat";
+    src: url("../fonts/Caveat-Regular.woff2") format(woff2), url("../fonts/Caveat-Regular.woff") format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MarckScript";
+    src: url("../fonts/MarckScript-Regular.woff2") format(woff2), url("../fonts/MarckScript-Regular.woff") format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    font-family: Caveat serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-transform: uppercase;
+    color: rgb(179, 17, 71);
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(102, 102, 218, 0.63);    
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+img{
+    max-width: 100px;
+    margin-left: 200px;
+    border: 5px solid rgba(9, 245, 28, 0.466);
+    box-shadow: 5px 5px 15px black;
+    margin-bottom: 50px;
+}
+div {
+    font-family: MarckScript;
+    font-size: 20px;
+    margin: 3%;
+
+}
+.one{
+    background-color: aqua;
+    padding-right: 50px;
+    text-align: justify;
+    max-width: 800px;
+    min-width: 200px;
+    height: 70px;
+    text-indent: 25px;
+    overflow: auto;
+    border: 7px dotted rgb(18, 236, 116);
+    box-shadow: 30px 20px 15px rgb(59, 59, 97);
+
+}
+.two{
+    background-color: brown;
+    padding: 5%;
+    text-align: justify;
+    max-width: 800px;
+    min-width: 200px;
+    max-height: 100 px;
+    text-indent: 25px;
+    border: 10px dashed lime;
+    border-radius: 15px / 100px;
+    box-shadow: inset 15px 15px 35px white;
+}
+.three{
+    background-color: green;
+    padding: 50px 0 30px 30px;
+    text-align: justify;
+    max-width: 800px;
+    min-width: 200px;
+    min-height: 100px;
+    text-indent: 25px;
+    margin-bottom: 50px;
+    border: 15px double darkorange;
+    border-radius: 50px 0 50px 0;
+    box-shadow: inset 10px 10px 15px rgb(145, 219, 145),10px 10px 15px rgb(9, 59, 9);
+}
